@@ -12,4 +12,12 @@ public class GitTest {
     public void te(){
         System.out.println("test");
     }
+
+    public static int getS() {
+        return s;
+    }
+
+    public static void setS(int s) {
+        GitTest.s = s;
+    }
 }
