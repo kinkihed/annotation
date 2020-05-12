@@ -18,6 +18,8 @@ public class GitTest {
     }
 
     public static void setS(int s) {
+        s++;
         GitTest.s = s;
     }
+
 }
